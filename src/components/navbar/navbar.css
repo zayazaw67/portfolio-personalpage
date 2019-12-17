@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #819FF7;
+    min-height: 7vh;
+    display: flex;
+    font-size: calc(7px + 2vmin);
+}
+
+.title {
+    float: left
+}
+
+.navContent {
+    margin-right: 20px;
+}
+
+.navContent:hover {
+    cursor: pointer;
+}

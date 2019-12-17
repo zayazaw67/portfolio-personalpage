@@ -1,0 +1,46 @@
+.techBg {
+    padding: 100px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(52,68,122,1) 100%);
+    color: whitesmoke;
+}
+
+.techText {
+    text-align: center;
+}
+
+.techIntro {
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.skillSet1 {
+    font-size: 20px;
+}
+
+.skills {
+    margin: 30px
+}
+
+.otherSkills {
+    margin-top: 30px;
+}
+
+.othersTitle {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.skillSet2 {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+    .skillSet2 {
+        margin-left: 20px;
+    }
+    .othersTitle {
+        text-align: center;
+    }
+  }

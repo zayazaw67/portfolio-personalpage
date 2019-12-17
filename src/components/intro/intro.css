@@ -1,0 +1,97 @@
+
+
+.intro {
+    /* background: rgb(37,195,219,1);
+    background: linear-gradient(90deg, rgba(37,195,219,1) 0%, rgba(0,13,116,1) 100%); */
+    background-image: url('../../images/bg.png');
+    width: 100%;
+    height: 93vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hr1, .hr2 {
+    margin-bottom: .5rem!important;
+    margin-top: .5rem!important;
+    border: 0;
+    border-top: 1px solid gray;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.hr2 {
+    width: 25vw;
+}
+
+.resumeLink, .bioRedirect, .portfolioRedirect {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.resumeLink, .bioRedirect, .portfolioRedirect:hover {
+    cursor: pointer;
+}
+
+.cartoonImage {
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    max-width: 400px;
+}
+
+.cartoonOut {
+    opacity: 0;
+}
+
+.display-3 {
+    text-transform: uppercase;
+}
+
+.quote {
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 5px;
+}
+
+.icon:hover {
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.rowPadding {
+    padding: 20px;
+}
+
+.skills {
+    margin: 20px
+}
+
+@media screen and (max-width: 954px) {
+    .intro {
+        height: auto;
+    }
+  }
+
+@media screen and (max-width: 844px) {
+    .pic {
+        display: none;
+        
+    }
+}

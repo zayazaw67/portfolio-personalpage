@@ -1,0 +1,39 @@
+.bio {
+    padding: 100px;
+    background: rgb(106,110,149);
+    background: linear-gradient(90deg, rgba(106,110,149,1) 0%, rgba(12,23,79,1) 43%, rgba(0,12,52,1) 100%);
+    width: 100%;
+    color: whitesmoke;
+}
+
+.picture {
+    border-radius: 35%;
+}
+
+.about {
+    margin-top: 10px;
+    float: left;
+}
+
+.contactInfo {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+div div div div div div div div a button.resumeButton.btn.btn-secondary {
+    background-color: white;
+    max-width: 25vh;
+    border: 2.5px solid black;
+    color: black
+}
+
+div div div div div div div div a button.resumeButton.btn.btn-secondary:hover {
+    background-color: #6c757d;
+}
+
+@media screen and (max-width: 1200px) {
+    .details {
+        margin-left: 20px;
+    }
+
+  }
